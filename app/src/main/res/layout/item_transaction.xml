@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp">
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+
+
+        <!--  ICON SECTION  -->
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:background="@drawable/round_bg"
+            android:src="@drawable/ic_deposit"
+            android:tint="@android:color/white"/>
+
+        <!--  TEXT SECTION  -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/txtType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deposit"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtRecipient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To: Alex"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2025-11-20 10:30 AM"
+                android:textSize="13sp"
+                android:textColor="#777777"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!--  AMOUNT SECTION  -->
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ $100"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#0B8B42"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

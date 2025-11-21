@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "589929588506",
+    "firebase_url": "https://bank-management-system-28390-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bank-management-system-28390",
+    "storage_bucket": "bank-management-system-28390.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589929588506:android:01d21d8c53581b9faa6ea3",
+        "android_client_info": {
+          "package_name": "com.arafat.axisbankplc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV9JvXt3wmEtsGmwLjA9LACezZG-TeJXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
