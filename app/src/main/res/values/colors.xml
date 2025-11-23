@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand / Primary -->
+    <color name="colorPrimary">#90CAF9</color>
+    <color name="colorPrimaryDark">#5E92C6</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorOnPrimary">#06263E</color>
+    <color name="colorPrimaryContainer">#0B253A</color>
+    <color name="colorOnPrimaryContainer">#C7E6FF</color>
+
+    <!-- Secondary -->
+    <color name="colorSecondary">#FFAB91</color>
+    <color name="colorOnSecondary">#411407</color>
+    <color name="colorSecondaryContainer">#32150E</color>
+    <color name="colorOnSecondaryContainer">#FFD8CC</color>
+
+    <!-- Tertiary -->
+    <color name="colorTertiary">#4CCFA0</color>
+    <color name="colorOnTertiary">#02271C</color>
+    <color name="colorTertiaryContainer">#083B2C</color>
+    <color name="colorOnTertiaryContainer">#C5F6E5</color>
+
+    <!-- Neutral / Surfaces -->
+    <color name="colorBackground">#12171F</color>
+    <color name="colorOnBackground">#E5E9EF</color>
+    <color name="colorSurface">#1A212B</color>
+    <color name="colorOnSurface">#D6DCE4</color>
+    <color name="colorSurfaceVariant">#2A333F</color>
+    <color name="colorOnSurfaceVariant">#A0A9B4</color>
+    <color name="colorOutline">#44505D</color>
+    <color name="colorOutlineVariant">#566472</color>
+
+    <!-- Status / Feedback -->
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorOnSuccess">#052406</color>
+    <color name="colorWarning">#FFCA49</color>
+    <color name="colorOnWarning">#332100</color>
+    <color name="colorError">#EF5350</color>
+    <color name="colorOnError">#360606</color>
+    <color name="colorInfo">#4FC3F7</color>
+    <color name="colorOnInfo">#062532</color>
+
+    <!-- Text Hierarchy -->
+    <color name="textPrimary">#F1F5F9</color>
+    <color name="textSecondary">#B3BDC9</color>
+    <color name="textDisabled">#6B7682</color>
+    <color name="textInverse">#1A212B</color>
+
+    <!-- Profile Gradient (dark tuned) -->
+    <color name="profileGradientStart">#324FAF</color>
+    <color name="profileGradientEnd">#4D6BDA</color>
+    <color name="onProfileGradient">#FFFFFF</color>
+    <color name="onProfileGradientAlt">#D6E1FF</color>
+
+    <!-- Balance Pill -->
+    <color name="balancePillBg">#243041</color>
+    <color name="balanceText">#82B4FF</color>
+    <color name="balanceIconTint">#66A2FF</color>
+
+    <!-- Action Card Gradients (slightly darkened for contrast) -->
+    <color name="actionDepositStart">#B27121</color>
+    <color name="actionDepositEnd">#CF933D</color>
+    <color name="actionWithdrawStart">#C53939</color>
+    <color name="actionWithdrawEnd">#E06464</color>
+    <color name="actionTransferStart">#319D73</color>
+    <color name="actionTransferEnd">#45B289</color>
+    <color name="actionHistoryStart">#4C53C8</color>
+    <color name="actionHistoryEnd">#6A74DE</color>
+    <color name="actionProfileStart">#324FAF</color>
+    <color name="actionProfileEnd">#4D6BDA</color>
+    <color name="actionLogoutStart">#B94B85</color>
+    <color name="actionLogoutEnd">#D967A3</color>
+
+    <!-- Icon Tints -->
+    <color name="iconPrimary">#90CAF9</color>
+    <color name="iconSecondary">#FFAB91</color>
+    <color name="iconOnDark">#F1F5F9</color>
+    <color name="iconMuted">#6B7682</color>
+
+    <!-- Misc -->
+    <color name="statusOnline">#34D399</color>
+    <color name="statusAway">#FBBF24</color>
+    <color name="statusOffline">#6B7682</color>
+
+    <!-- Legacy -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="accentColor">#FF7043</color>
+
 </resources>

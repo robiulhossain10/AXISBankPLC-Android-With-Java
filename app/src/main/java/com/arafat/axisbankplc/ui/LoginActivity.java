@@ -21,9 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText edtEmail, edtPassword;
     Button btnLogin;
 
-    TextView RegisterBTN;
-
-
+    TextView btnSignup;
     ProgressBar progressBar;
 
     FirebaseAuthService authService;
@@ -39,9 +37,9 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         progressBar = findViewById(R.id.progressBar);
 
-        RegisterBTN = findViewById(R.id.txtGoRegister);
+        btnSignup = findViewById(R.id.txtGoRegister);
 
-        RegisterBTN.setOnClickListener(v -> {
+        btnSignup.setOnClickListener(v -> {
             startActivity(new Intent(this, RegisterActivity.class));
         });
 

@@ -1,70 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
     android:gravity="center"
-    android:id="@+id/main"
     android:orientation="vertical"
+    android:padding="24dp"
     android:background="#F5F6FA">
 
+    ```
+    <!-- Welcome Title -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome Back"
-        android:textSize="28sp"
-        android:textColor="#222"
+        android:textSize="34sp"
+        android:textColor="#222222"
         android:textStyle="bold"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="32dp"/>
 
+    <!-- Email Input -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email">
+        android:hint="Email"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#3F51B5"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:boxBackgroundColor="#FFFFFF"
+        android:layout_marginBottom="16dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edtEmail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="50dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- Password Input -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         app:passwordToggleEnabled="true"
-        android:layout_marginTop="12dp">
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#3F51B5"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:boxBackgroundColor="#FFFFFF"
+        android:layout_marginBottom="24dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edtPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"/>
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- Login Button with Gradient -->
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
         android:text="Login"
-        android:backgroundTint="#0066FF"
-        android:textColor="#fff"/>
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp"
+        android:clipToOutline="true"
+        android:stateListAnimator="@null"/>
 
+    <!-- Signup Text Link -->
     <TextView
         android:id="@+id/txtGoRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Register"
-        android:textColor="#0066FF"
-        android:paddingTop="20dp"/>
+        android:text="Don't have an account? Sign Up"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:focusable="true"/>
 
+    <!-- ProgressBar -->
     <ProgressBar
         android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
         android:visibility="gone"
-        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    ```
 
 </LinearLayout>
